@@ -141,13 +141,13 @@
 
   function buildReservationMessage(kind, b) {
     const headers = {
-      new: 'Nova reserva pelo site — Famiglia Mancini Trattoria',
-      edit: 'Alteração de reserva — Famiglia Mancini Trattoria',
-      cancel: 'Cancelamento de reserva — Famiglia Mancini Trattoria'
+      new: 'Nova reserva pelo site: Famiglia Mancini Trattoria',
+      edit: 'Alteração de reserva: Famiglia Mancini Trattoria',
+      cancel: 'Cancelamento de reserva: Famiglia Mancini Trattoria'
     };
     const closings = {
       new: null,
-      edit: 'Olá! Gostaria de alterar esta reserva — podem me ajudar com a nova data/horário?',
+      edit: 'Olá! Gostaria de alterar esta reserva. Podem me ajudar com a nova data/horário?',
       cancel: 'Olá! Gostaria de cancelar esta reserva, por favor.'
     };
     const lines = [
